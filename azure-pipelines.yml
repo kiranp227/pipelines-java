@@ -23,6 +23,6 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)'
-    artifact: 'hhfdgffgjhhjkh'
+    targetPath: '$(Pipeline.Workspace)/s/target/helloworld.war'
+    artifact: 'mywar'
     publishLocation: 'pipeline'
